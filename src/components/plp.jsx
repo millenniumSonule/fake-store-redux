@@ -7,7 +7,7 @@ const plp = () => {
         <Navbar/>
       </div>
       <div className="plp-container">
-        
+          
       </div>
     </div>
   )
