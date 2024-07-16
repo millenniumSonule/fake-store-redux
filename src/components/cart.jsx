@@ -3,8 +3,8 @@ import Navbar from './navbar'
 const cart = () => {
   return (
     <div>
-      <Navbar
-      />
+      <Navbar/>
+      
     </div>
   )
 }

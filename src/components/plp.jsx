@@ -6,6 +6,9 @@ const plp = () => {
       <div className="nav-bar-container">
         <Navbar/>
       </div>
+      <div className="plp-container">
+        
+      </div>
     </div>
   )
 }
