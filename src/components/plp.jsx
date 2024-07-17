@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './navbar'
-const plp = () => {
+import { useSelector,useDispatch } from 'react-redux'
+import products, { getProducts } from './redux/productsAPIcall'
+
+const Plp = () => {
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+      dispatch(getProducts);
+  }, [dispatch]);
+
+
   return (
     <div className="homepage-container">
       <div className="nav-bar-container">
@@ -13,4 +24,4 @@ const plp = () => {
   )
 }
 
-export default plp
+export default Plp;
