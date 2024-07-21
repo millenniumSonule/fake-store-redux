@@ -5,7 +5,7 @@ const plp = () => {
   return (
     <div className="plp-container">
       <Navbar/>
-      
+        
     </div>
   )
 }
